@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    
+</head>
+<body>
+    <h3>Form 1: Registration</h3>
+    <form >
+        Name: <br>
+        <input type="text" name="Full Name" placeholder="Enter your name"><br>
+        Address: <br>
+        <textarea name="Address" cols="21" rows="5" placeholder="Type your address"></textarea><br>
+        Gender: <br>
+        Male <input type="radio" name="Gender" value="M"> 
+        Female <input type="radio" name="Gender" value="F">
+        Other <input type="radio" name="Gender" value="O"><br>
+        District: <br>
+        <select name="District" >
+            <option value="">Select One</option>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Barishal">Barishal</option>
+            <option value="Noakhali">Noakhali</option>
+            <option value="Chadpur">Chadpur</option>
+        </select><br>
+        <input type="submit" name="submit" value="SEND DATA">
+    </form><hr>
+    <h3>Form 2: Login</h3>
+    <form action="">
+        <input type="email" placeholder="Enter your email"><br>
+        <input type="password" placeholder="Enter your password"><br>
+        <input type="submit" value="LOGIN">
+    </form><hr>
+    <h3>Form 3: Signup</h3>
+    <form action="">
+        Name: <br><input type="text" placeholder="Enter your Name"><br>
+        Date of Birth: <br><input type="date"><br>
+        Gender: <br>Male<input type="radio" name="Gender"> Female<input type="radio" name="Gender"> Other<input type="radio" name="Gender"><br>
+        District: <br><select name="District" id="">
+            <option value="">Select One</option>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Narayanganj">Narayanganj</option>
+            <option value="Chandpur">Chandpur</option>
+            <option value="Noakhali">Noakhali</option>
+            <option value="Barisal">Barisal</option>
+        </select><br>
+        Password: <br><input type="password" placeholder="Enter Password"><br>
+        Repeat password: <br><input type="password" placeholder="Repeat Password"><br>
+        Agree with Terms and Conditions: <br>
+        <input type="checkbox"> I agree <br>
+        <input type="submit" value="Submit">  <input type="reset" value="Reset">
+      <hr>
+      <h3>Form 4: Big Form</h3>
+      <form action="">
+        
+        <fieldset>
+            <legend>Login Info</legend>
+            <input type="email" placeholder="Enter e-mail"><br>
+            <input type="password" name="passwored" placeholder="Password"><br>
+            <input type="password" name="repeat_password" placeholder="re-password"><br>
+        </fieldset>
+
+        
+        <fieldset>
+            <legend>Contact Info</legend>
+            <input type="text" name="name" placeholder="Enter Name"><br>
+            <input type="number" name="phone" placeholder="Enter phone number"><br>
+            <textarea name="address" id="" cols="30" rows="10" placeholder="Enter address"></textarea>
+        
+        </fieldset>
+        <input type="submit">
+        <input type="reset">
+    </form><hr>
+
+    <h3>Form 5: Tour Form</h3>
+    <form action="">
+        <input type="text" name="fullname" placeholder="Enter name"><br>
+        <input type="number" name="age" placeholder="Enter age"><br>
+        <input type="text" name="phone" placeholder="Enter mobile number"><br>
+        <textarea name="address" placeholder="Enter address" cols="21" rows="5"></textarea><br>
+        <label for="">Places you want to visit:</label><br>
+        <select name="places" multiple style="height: 150px; ">
+            <option value="">Select your choice</option>
+            <optgroup label="Dhaka">
+                <option value="">Savar</option>
+                <option value="">Safari Park</option>
+                <option value="">Nandan Park</option>
+                <option value="">Ramna Park</option>
+            </optgroup>
+            <optgroup label="Chittagonj">
+                <option value="">Bandarban</option>
+                <option value="">Rangamati</option>
+                <option value="">Khagrachari</option>
+                <option value="">Patenga Sea beach</option>
+            </optgroup>
+            <optgroup label="Shylet">
+                <option value="">Sunamganj</option>
+                <option value="">Tanguar Haor</option>
+                <option value="">Sada pathor</option>
+                <option value="">Hazrat Shajala majar</option>
+            </optgroup>
+        </select><br>
+        <input type="submit" name="submit" value="ORDER">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <style>
+        td,th {border: 1px solid rgba(186, 155, 201, 0.931);}
+        table {border-collapse: collapse;}
+        thead {background-color: aqua; height: 50px;}
+        tfoot {background-color: rgb(255, 251, 0); height: 50px;}
+        
+    </style>
+</head>
+<body>
+    <h3>Table 1</h3>
+    <table>
+        <tr>
+            <td>ABC</td>
+        </tr>
+    </table><hr>
+    <h3>Table 2</h3>
+    <table>
+        <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>Details</td>
+        </tr>
+    </table><hr>
+    <h3>Table 3</h3>
+    <table>
+        <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>Address</td>
+        </tr>
+        <tr>
+            <td>1282769</td>
+            <td>Mahmudul Haque</td>
+            <td>Narayanganj</td>
+        </tr>
+        <tr>
+            <td>1282884</td>
+            <td>Saif Jahan</td>
+            <td>Bokshibajar</td>
+        </tr>
+        <tr>
+            <td>1281947</td>
+            <td>Masud Sardar</td>
+            <td>Farmgate</td>
+        </tr>
+    </table><hr>
+    <h3>Table 4</h3>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <td>1282769</td>
+            <td>Mahmudul Haque</td>
+            <td>Narayanganj</td>
+        </tr>
+        <tr>
+            <td>1282884</td>
+            <td>Saif Jahan</td>
+            <td>Bokshibajar</td>
+        </tr>
+        <tr>
+            <td>1281947</td>
+            <td>Masud Sardar</td>
+            <td>Faragate</td>
+        </tr>
+    </table><hr>
+    <h3>Table 5</h3>
+    <table style="width: 300px; height: 200px;">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td colspan="2">3</td>
+            
+        </tr>
+        <tr>
+            <td colspan="4">5</td>
+            
+        </tr>
+        <tr>
+            <td colspan="3">9</td>
+            
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+        </tr>
+    </table><hr>
+    <h3>Table 6</h3>
+    <table style="height: 250px; width: 300px;">
+      <tr>
+        <td rowspan="2">A</td>
+        <td>B</td>
+        <td>C</td>
+        <td>D</td>
+      </tr>
+      <tr>
+        <td>F</td>
+        <td rowspan="3">G</td>
+        <td>H</td>
+      </tr>
+      <tr>
+        <td>I</td>
+        <td>J</td>
+        <td>L</td>
+      </tr>
+      <tr>
+        <td>M</td>
+        <td>N</td>
+        <td>P</td>
+      </tr>  
+    </table><hr>
+
+    <h3>Table 6</h3>
+    <table style="color: white;">
+        <caption>Book List with price</caption>
+        <colgroup>
+            <col style="background-color: rgb(78, 149, 20);">
+            <col style="background-color: rgb(224, 189, 50);">
+            <col style="background-color: rgb(97, 56, 231);">
+        </colgroup>
+        <tr>
+           <th>SN</th>
+           <th>Book Name</th>
+           <th>Price</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>HTML Advanced</td>
+            <td>$30</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>JavaScript Basics</td>
+            <td>$50</td>
+        </tr>
+    </table><hr>
+
+    <h3>Table 7</h3>
+    <table style="width: 400px; height: 400px;">
+       <thead>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+       </tbody>
+       <tfoot>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+       </tfoot>
+    </table>
+
+
+</body>
+</html>
